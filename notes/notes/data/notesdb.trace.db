@@ -1,0 +1,4 @@
+2026-05-07 08:54:53.497491+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Wert zu groß / lang für Feld "CONTENT CHARACTER VARYING(255)": "U&'Ich habe Endlich beschlossen die sachen anders zu machen als fr\\00fcher, desw... (268)"
+Value too long for column "CONTENT CHARACTER VARYING(255)": "U&'Ich habe Endlich beschlossen die sachen anders zu machen als fr\\00fcher, desw... (268)"; SQL statement:
+update note set content=?,title=? where id=? [22001-224]
